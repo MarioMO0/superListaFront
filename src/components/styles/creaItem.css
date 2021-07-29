@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+  }
+  html{
+    font-size: 62.5%;
+  }
+  .item-form{
+      width: 100vw;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+      background-color:#DA6100 ;
+  }
+  .item-form__titulo{
+      font-weight: bold;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color:#0a0908 ;
+  }
+  .item-form__grupo{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .item-form__texto{
+      font-size: 1.8rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .item-form__input{
+      width: 80%;
+      height:3rem;
+      border-radius: 1rem;
+      background-color: #F2F4F3;
+      color: #883C00;
+  }
+  .item-form__input--area{
+    width: 30rem;
+    height: 9rem;
+    border-radius: 1rem;
+    background-color: #F2F4F3;
+    color: #883C00;
+  }
+  .item-form__boton{
+      width: 10rem;
+      height: 3rem;
+      background-color: #883C00;
+      border-radius: 1rem;
+      color:#F2F4F3 ;
+      font-size: 2.3rem;
+  }
