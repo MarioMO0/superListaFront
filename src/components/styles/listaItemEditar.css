@@ -1,0 +1,34 @@
+.item__borrar{
+    width: 15vw;
+    height: 6vh;
+}
+.item__boton-borrar{
+    width: 100%;
+    height: 100%;
+    background-color: #B6713A;
+    border-radius: 0.4rem;
+}
+.item__icono-boton{
+    color: #F2F4F3;
+    font-size: 1.5rem;
+}
+.item__controles{
+    width: 5vw;
+    height: 6vh;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+}
+
+.item__boton-aumentar, .item__boton-disminuir{
+    width: 100%;
+    height: 50%;
+    background-color: #883C00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono-arriba, .icono-abajo{
+    color: #F2F4F3;
+    font-size: 1.5rem;
+}

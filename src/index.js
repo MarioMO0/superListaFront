@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import Items from './pages/Items'
+import App from './components/App'
 const container= document.getElementById('app')
 ReactDom.render(
- <Items/> , container
+ <App/> , container
 );

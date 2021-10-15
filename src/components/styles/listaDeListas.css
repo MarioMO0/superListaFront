@@ -1,0 +1,50 @@
+.lista-de-listas{
+    width: 80vw;
+    height: 90vh;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.lista-row__contenedor{
+    width: 80vw;
+    height: 8vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.lista__borrar{
+    width: 20%;
+    height: 80%;
+}
+.lista__boton-borrar{
+    width: 100%;
+    height: 100%;
+    background-color: #B6713A;
+    border-right: 3px solid #0a0908;
+    border-bottom:  3px solid #0a0908;
+    border-radius: 0.4rem;
+}
+.lista__icono-borrar{
+    font-size: 2rem;
+    color: #F2F4F3;
+}
+.lista__container{
+    width: 70%;
+    height: 90%;
+    background-color: #B6713A;
+    text-decoration: none;
+    border-bottom: 3px solid #0a0908;
+    border-left: 3px solid #0a0908;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.lista__nombre{
+    font-size: 2rem;
+    color: #F2F4F3;
+    border-top: 2px solid #DA6100;
+    border-right: 2px solid #DA6100;
+}

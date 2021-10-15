@@ -1,0 +1,45 @@
+.editar-lista__contenedor-general{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+.editar-lista__contenedor-lista{
+    width: 90%;
+    height: 90%;
+    background-color: #DA6100 ;
+    overflow: scroll;
+    margin-top: .5rem;
+    border-radius: 1rem;
+}
+.editar-lista__boton{
+    width: 6rem;
+    height: 6rem;
+    text-decoration: none;
+    border-radius: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 .2rem 0 .2rem gray;
+    background-color: #F2F4F3;
+}
+.editar-lista__hecho{
+    position: absolute;
+    z-index: 10;
+    bottom: 1%;
+    right: 2%;
+}
+.editar-lista__nuevo{
+    position: absolute;
+    z-index: 10;
+    bottom: 1%;
+    left: 2%;
+}
+.editar-lista__icono-hecho{
+    font-size: 4rem;
+    color: blue;
+}
+.editar-lista__icono-nuevo{
+    font-size: 4rem;
+    color: blue;
+}
